@@ -28,7 +28,7 @@ function Projects() {
               title="Bitcoin Constellation"
               description="A powerful HD Wallet Explorer built with Python and Streamlit. Visualizes BIP-39 mnemonic generation, BIP-32 key derivation, and BIP-84 address standards. Features a beautiful, starry-themed UI for educational exploration of Bitcoin cryptography."
               ghLink="https://github.com/Sumit-ai-dev/bitcoin-constellation"
-              demoLink="https://bitcoin-constellation-demo.streamlit.app/"
+              demoLink="https://bitcoin-constellation-yzztrcknhqqenw29wtjymd.streamlit.app/"
             />
           </Col>
 
@@ -72,6 +72,7 @@ function Projects() {
               title="Bitcoin Testnet Wallet"
               description="A working Bitcoin Testnet Wallet built with TypeScript and React. Allows users to generate testnet addresses and sign transactions. Focuses on the practical application of Bitcoin protocol standards in a web environment."
               ghLink="https://github.com/Sumit-ai-dev/bitcoin-testnet-wallet"
+              demoLink="https://bitcoin-testnet-wallet-two.vercel.app/"
             />
           </Col>
 
@@ -82,6 +83,7 @@ function Projects() {
               title="Bitcoin Connect Demo"
               description="A technical demonstration of integrating Bitcoin Connect into a modern web application. Showcases UI components for wallet connection and transaction signing flows."
               ghLink="https://github.com/Sumit-ai-dev/bitcoin-connect-demo"
+              demoLink="https://bitcoin-connect-demo.vercel.app/"
             />
           </Col>
         </Row>

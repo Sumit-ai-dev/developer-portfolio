@@ -13,7 +13,9 @@ function AboutCard() {
             <br />
             I am a <span className="purple">Full Stack Developer</span> and an aspiring <span className="purple">Bitcoin Core Engineer</span>.
             <br />
-            I am currently participating in <span className="purple">Summer of Bitcoin 2025</span>, building projects with <span className="purple">Rust, C++, and Python</span>.
+            I am passionate about building projects with <span className="purple">Rust, C++, Python, JavaScript and TypeScript</span>
+            <br />
+            and I actively contribute to <span className="purple">Cybersecurity Organizations</span>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

@@ -8,21 +8,27 @@ function Notes() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My <strong className="purple">Bitcoin Notes </strong>
+          My <strong className="purple">Technical Writes </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Technical deep-dives into the Bitcoin protocol.
+          I write about Systems Programming, Bitcoin, and my development journey.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
+
           <Col md={12} className="home-about-social">
-            <h1 style={{ fontSize: "2.6em" }}>🚧 COMING SOON 🚧</h1>
+            <h1 style={{ fontSize: "2.6em" }}>Writing & Articles</h1>
             <p>
-              I am currently documenting my journey through 
-              <br />
-              <b className="purple"> Mastering Bitcoin </b> & 
-              <b className="purple"> Summer of Bitcoin 2025 </b>
+              I share my technical learnings and project updates on <b className="purple">LinkedIn</b>.
             </p>
+            <a
+              href="https://www.linkedin.com/in/sumit-das-42a8522a4/recent-activity/all/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+              style={{ marginTop: "20px" }}
+            >
+              View My Posts
+            </a>
           </Col>
 
         </Row>

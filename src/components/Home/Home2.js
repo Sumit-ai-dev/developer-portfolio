@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/profile.jpg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -18,7 +18,7 @@ function Home2() {
               <br />
               I am fluent in classics like
               <i>
-                <b className="purple"> C++, Rust, and Python. </b>
+                <b className="purple"> C++, Rust, Python and JavaScript. </b>
               </i>
               <br />
               <br />
@@ -48,7 +48,20 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{
+                  borderRadius: "50%",
+                  width: "100%",
+                  maxWidth: "350px",
+                  aspectRatio: "1 / 1",
+                  objectFit: "cover",
+                  boxShadow: "0 0 50px rgba(187, 87, 255, 0.5)",
+                  border: "2px solid rgba(187, 87, 255, 0.2)"
+                }}
+              />
             </Tilt>
           </Col>
         </Row>

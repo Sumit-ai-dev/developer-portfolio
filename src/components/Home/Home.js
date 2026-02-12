@@ -12,6 +12,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 function Home() {
   return (
@@ -71,12 +72,19 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
+                  href="https://x.com/SumitDas1423"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+                  </svg>
                 </a>
               </li>
               <li className="social-icons">
@@ -91,12 +99,22 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/sumitds25/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:sumitds2005@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiGmail />
                 </a>
               </li>
             </ul>

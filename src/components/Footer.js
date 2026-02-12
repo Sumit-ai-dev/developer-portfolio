@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -33,7 +34,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/"
+                href="https://x.com/SumitDas1423"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,12 +54,22 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/sumitds25/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:sumitds2005@gmail.com"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiGmail />
               </a>
             </li>
           </ul>
