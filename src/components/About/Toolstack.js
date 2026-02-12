@@ -17,19 +17,19 @@ function Toolstack() {
         <div className="tech-icons-text">macOS</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiVisualstudiocode style={{ color: "#007ACC" }} />
         <div className="tech-icons-text">VS Code</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
+        <SiIntellijidea style={{ color: "#FA2050" }} />
         <div className="tech-icons-text">IntelliJ</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiLinux style={{ color: "#FCC624" }} />
         <div className="tech-icons-text">Linux</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <SiSlack style={{ color: "#E01E5A" }} />
         <div className="tech-icons-text">Slack</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
