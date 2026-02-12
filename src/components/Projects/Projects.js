@@ -50,7 +50,7 @@ function Projects() {
               title="Rust-Vault"
               description="A Command-Line Bitcoin Wallet built with Rust and the Bitcoin Dev Kit (BDK). Features wallet syncing, balance checking, and address generation. Demonstrates systems programming and use of professional Bitcoin libraries."
               ghLink="https://github.com/Sumit-ai-dev/rust-vault"
-              demoLink="https://replit.com/@sumitds2005/rust-vault"
+
             />
           </Col>
 
@@ -61,7 +61,7 @@ function Projects() {
               title="C++ Block Parser"
               description="High-performance Bitcoin Block Header Parser written in C++. Manually parses raw hex bytes of the Genesis Block to extract Version, Time, Bits, and Nonce. Demonstrates low-level memory management and understanding of Bitcoin's serialization format."
               ghLink="https://github.com/Sumit-ai-dev/cpp-block-parser"
-              demoLink="https://replit.com/@sumitds2005/cpp-block-parser-1"
+
             />
           </Col>
 
